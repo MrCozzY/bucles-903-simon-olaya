@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="JHQeKi!lJj5:HA!dM$kk" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="YaKd6?w:C)*S~m7+nsI:"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="W=iBb[Li**^OcGl.=Z,5"><field name="NAME">Button.A</field></block></value><statement name="DO"><block type="device_print_message" id="~@vXC!-LQQ6)gG*2ooX0"><value name="text"><shadow type="text" id="!EVHna7c_{!Chg#hbN/|"><field name="TEXT">Verdadero</field></shadow></value><next><block type="controls_repeat_ext" id="eIyM4RN/q|x|Z]J!?_lF"><value name="TIMES"><shadow type="math_whole_number" id="XbR/#2aG2*85;X0Ej,vz"><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_show_leds" id="$ZE@1?S.{{s~pI_%*Q;M"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_clear_display" id="=XWPo)Uo^C:+?!FCq^7J"/></next></block></statement></block></next></block></statement><next><block type="device_while" id="fK{x^|7]d`gs8Z[.10Kv"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="m]BI-hgATYl.zh6ztpO,"><field name="NAME">Button.B</field></block></value><statement name="DO"><block type="device_print_message" id="zu7CNgqC#(D@%phD:%IU"><value name="text"><shadow type="text" id="{l)dbdAi#G3gt_vg]G+O"><field name="TEXT">Falso</field></shadow></value><next><block type="controls_repeat_ext" id="3]E|@oxX4I`$c.?7|~##"><value name="TIMES"><shadow type="math_whole_number" id="3U~[T[%)91vw%4a.Vn%e"><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_show_leds" id="Z+;}wkUAx$X%#NK[*|90"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_clear_display" id="uVamL=!Xb5O8~m[yDZ1V"/></next></block></statement></block></next></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="pnIqz{VcC?^-+m!{~M-j" x="598" y="34"/></xml>
